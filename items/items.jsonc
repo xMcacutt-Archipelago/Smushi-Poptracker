@@ -1,0 +1,339 @@
+[
+    {
+        "name": "Classic Shroomie",
+        "type": "static",
+        "img": "images/items/Classic Shroomie.png",
+        "codes": "classic_shroomie"
+    },
+    {
+        "name": "Amethyst Shroomie",
+        "type": "toggle",
+        "img": "images/items/Amethyst Shroomie.png",
+        "codes": "amethyst_shroomie"
+    },
+    {
+        "name": "Flower Shroomie",
+        "type": "toggle",
+        "img": "images/items/Flower Shroomie.png",
+        "codes": "flower_shroomie"
+    },
+    {
+        "name": "Strawberry Shroomie",
+        "type": "toggle",
+        "img": "images/items/Strawberry Shroomie.png",
+        "codes": "strawberry_shroomie"
+    },
+    {
+        "name": "SHO Bowl Shroomie",
+        "type": "toggle",
+        "img": "images/items/SHO Bowl Shroomie.png",
+        "codes": "sho_bowl_shroomie"
+    },
+    {
+        "name": "Pelagic Shroomie",
+        "type": "toggle",
+        "img": "images/items/Pelagic Shroomie.png",
+        "codes": "pelagic_shroomie"
+    },
+    {
+        "name": "Verdant Shroomie",
+        "type": "toggle",
+        "img": "images/items/Verdant Shroomie.png",
+        "codes": "verdant_shroomie"
+    },
+    {
+        "name": "Honey Shroomie",
+        "type": "toggle",
+        "img": "images/items/Honey Shroomie.png",
+        "codes": "honey_shroomie"
+    },
+    {
+        "name": "Sparkle Shroomie",
+        "type": "toggle",
+        "img": "images/items/Sparkle Shroomie.png",
+        "codes": "sparkle_shroomie"
+    },
+    {
+        "name": "Clavaria Shroomie",
+        "type": "toggle",
+        "img": "images/items/Clavaria Shroomie.png",
+        "codes": "clavaria_shroomie"
+    },
+    {
+        "name": "Inkcap Shroomie",
+        "type": "toggle",
+        "img": "images/items/Inkcap Shroomie.png",
+        "codes": "inkcap_shroomie"
+    },
+    {
+        "name": "Sharp Shroomie",
+        "type": "toggle",
+        "img": "images/items/Sharp Shroomie.png",
+        "codes": "sharp_shroomie"
+    },
+    {
+        "name": "Precious Shroomie",
+        "type": "toggle",
+        "img": "images/items/Precious Shroomie.png",
+        "codes": "precious_shroomie"
+    },
+    {
+        "name": "Rainbow Shroomie",
+        "type": "toggle",
+        "img": "images/items/Rainbow Shroomie.png",
+        "codes": "rainbow_shroomie"
+    },
+    {
+        "name": "Veiled Shroomie",
+        "type": "toggle",
+        "img": "images/items/Veiled Shroomie.png",
+        "codes": "veiled_shroomie"
+    },
+    {
+        "name": "Sacred Shroomie",
+        "type": "toggle",
+        "img": "images/items/Sacred Shroomie.png",
+        "codes": "sacred_shroomie"
+    },
+    {
+        "name": "Energy Spore",
+        "type": "consumable",
+        "max_quantity": 7,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "img": "images/items/Energy Spore.png",
+        "codes": "energy_spore"
+    },
+    {
+        "name": "Super Spore",
+        "type": "toggle",
+        "img": "images/items/Super Spore.png",
+        "codes": "super_spore"
+    },
+    {
+        "name": "Wind Essence",
+        "type": "consumable",
+        "max_quantity": 5,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "img": "images/items/Wind Essence.png",
+        "codes": "wind_essence"
+    },
+    {
+        "name": "Super Essence",
+        "type": "toggle",
+        "img": "images/items/Super Essence.png",
+        "codes": "super_essence"
+    },
+    {
+        "name": "Leaf Glider",
+        "type": "toggle",
+        "img": "images/items/Leaf Glider.png",
+        "codes": "leaf_glider"
+    },
+    {
+        "name": "Progressive Hooks",
+        "type": "consumable",
+        "codes": "progressive_hooks",
+        "max_quantity": 2,
+        "hide_in_layout": true
+    },
+    {
+        "name": "Rusty Hooks",
+        "type": "toggle",
+        "img": "images/items/Rusty Hooks.png",
+        "codes": "rusty_hooks"
+    },
+    {
+        "name": "Sturdy Hooks",
+        "type": "toggle",
+        "img": "images/items/Sturdy Hooks.png",
+        "codes": "sturdy_hooks"
+    },
+    {
+        "name": "Tool of Mining",
+        "type": "toggle",
+        "img": "images/items/Tool of Mining.png",
+        "codes": "tool_of_mining"
+    },
+    {
+        "name": "Blade of Power",
+        "type": "toggle",
+        "img": "images/items/Blade of Power.png",
+        "codes": "blade_of_power"
+    },
+    {
+        "name": "Firestarter Kit",
+        "type": "toggle",
+        "img": "images/items/Firestarter Kit.png",
+        "codes": "firestarter_kit"
+    },
+    {
+        "name": "Essence of Water",
+        "type": "toggle",
+        "img": "images/items/Essence of Water.png",
+        "codes": "essence_of_water"
+    },
+    {
+        "name": "Mycology Journal",
+        "type": "toggle",
+        "img": "images/items/Mycology Journal.png",
+        "codes": "mycology_journal"
+    },
+    {
+        "name": "Conch Shell",
+        "type": "toggle",
+        "img": "images/items/Conch Shell.png",
+        "codes": "conch_shell"
+    },
+    {
+        "name": "Ancient Relic 1",
+        "type": "toggle",
+        "img": "images/items/Coin1.png",
+        "codes": "ancient_relic_1"
+    },
+    {
+        "name": "Ancient Relic 2",
+        "type": "toggle",
+        "img": "images/items/Coin2.png",
+        "codes": "ancient_relic_2"
+    },
+    {
+        "name": "Blueberry",
+        "type": "consumable",
+        "max_quantity": 2,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "img": "images/items/Blueberry.png",
+        "codes": "blueberry"
+    },
+    {
+        "name": "Tool of Writing",
+        "type": "toggle",
+        "img": "images/items/Tool of Writing.png",
+        "codes": "tool_of_writing"
+    },
+    {
+        "name": "Secret Password",
+        "type": "toggle",
+        "img": "images/items/Secret Password.png",
+        "codes": "secret_password"
+    },
+    {
+        "name": "Explosive Powder",
+        "type": "consumable",
+        "max_quantity": 2,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "img": "images/items/Explosive Powder.png",
+        "codes": "explosive_powder"
+    },
+    {
+        "name": "Container of Light",
+        "type": "toggle",
+        "img": "images/items/Container of Light.png",
+        "codes": "container_of_light"
+    },
+    {
+        "name": "Headlamp",
+        "type": "toggle",
+        "img": "images/items/Headlamp.png",
+        "codes": "headlamp"
+    },
+    {
+        "name": "Secret Opener",
+        "type": "toggle",
+        "img": "images/items/Secret Opener.png",
+        "codes": "secret_opener"
+    },
+    {
+        "name": "Old String",
+        "type": "toggle",
+        "img": "images/items/Old String.png",
+        "codes": "old_string"
+    },
+    {
+        "name": "Lotus Flower",
+        "type": "consumable",
+        "max_quantity": 5,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "img": "images/items/Lotus Flower.png",
+        "codes": "lotus_flower"
+    },
+    {
+        "name": "Screwdriver",
+        "type": "toggle",
+        "img": "images/items/Screwdriver.png",
+        "codes": "screwdriver"
+    },
+    {
+        "name": "Band of Elasticity",
+        "type": "toggle",
+        "img": "images/items/Band of Elasticity.png",
+        "codes": "band_of_elasticity"
+    },
+    {
+        "name": "Band Aid",
+        "type": "toggle",
+        "img": "images/items/Band Aid.png",
+        "codes": "band_aid"
+    },
+    {
+        "name": "Ring of Love",
+        "type": "toggle",
+        "img": "images/items/Ring of Love.png",
+        "codes": "ring_of_love"
+    },
+    {
+        "name": "Ring of Youth",
+        "type": "toggle",
+        "img": "images/items/Ring of Youth.png",
+        "codes": "ring_of_youth"
+    },
+    {
+        "name": "Ring of Truth",
+        "type": "toggle",
+        "img": "images/items/Ring of Truth.png",
+        "codes": "ring_of_truth"
+    },
+    {
+        "name": "Ring of Prosperity",
+        "type": "toggle",
+        "img": "images/items/Ring of Prosperity.png",
+        "codes": "ring_of_prosperity"
+    },
+    {
+        "name": "Ring of Spirit",
+        "type": "toggle",
+        "img": "images/items/Ring of Spirit.png",
+        "codes": "ring_of_spirit"
+    },
+    {
+        "name": "Sacred Streamer",
+        "type": "consumable",
+        "max_quantity": 4,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "img": "images/items/Sacred Streamer.png",
+        "codes": "sacred_streamer"
+    }
+]

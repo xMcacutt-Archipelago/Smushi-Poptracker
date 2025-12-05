@@ -1,0 +1,293 @@
+[
+    {
+        "name": "Elder's Home",
+        "access_rules": [
+            "^$elders_home"
+        ],
+        "map_locations": [
+            {
+                "map": "map_grove_of_life",
+                "x": 300,
+                "y": 530
+            }
+        ],
+        "sections": [
+            {
+                "name": "Sharp Augmenter",
+                "access_rules": [
+                    "^$sharp_augmenter"
+                ],
+                "item_count": 1,
+                "chest_opened_img": "images/locations/Sharp Augmenter Grey.png",
+                "chest_unopened_img": "images/locations/Sharp Augmenter.png"
+            },
+            {
+                "name": "Coprinellus Disseminatus",
+                "access_rules": [
+                    "$is_shroom_nerd"
+                ],
+                "item_count": 1,
+                "chest_opened_img": "images/locations/Coprinellus Disseminatus Grey.png",
+                "chest_unopened_img": "images/locations/Coprinellus Disseminatus.png"
+            },
+            {
+                "name": "Screwdriver Purchase",
+                "access_rules": [
+                    "^$screwdriver_purchase"
+                ],
+                "item_count": 1,
+                "chest_opened_img": "images/locations/Purchase Grey.png",
+                "chest_unopened_img": "images/locations/Purchase.png"
+            }
+        ],
+        "children": [
+            {
+                "name": "Grove of Life",
+                "access_rules": [
+                    "^$grove_of_life"
+                ],
+                "children": [
+                    {
+                        "name": "Liminal Woods",
+                        "map_locations": [
+                            {
+                                "map": "map_grove_of_life",
+                                "x": 260,
+                                "y": 250
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Hygrocybe Miniata",
+                                "access_rules": [
+                                    "$is_shroom_nerd"
+                                ],
+                                "item_count": 1,
+                                "chest_opened_img": "images/locations/Hygrocybe Miniata Grey.png",
+                                "chest_unopened_img": "images/locations/Hygrocybe Miniata.png"
+                            },
+                            {
+                                "name": "Laccaria Amethystina",
+                                "access_rules": [
+                                    "$is_shroom_nerd"
+                                ],
+                                "item_count": 1,
+                                "chest_opened_img": "images/locations/Laccaria Amethystina Grey.png",
+                                "chest_unopened_img": "images/locations/Laccaria Amethystina.png"
+                            },
+                            {
+                                "name": "Grove Map Found",
+                                "item_count": 1,
+                                "chest_opened_img": "images/locations/Pickup Grey.png",
+                                "chest_unopened_img": "images/locations/Pickup.png"
+                            },
+                            {
+                                "name": "Ring of Truth Found",
+                                "access_rules": [
+                                    "^$ring_of_truth_found"
+                                ],
+                                "item_count": 1,
+                                "chest_opened_img": "images/locations/Pickup Grey.png",
+                                "chest_unopened_img": "images/locations/Pickup.png"
+                            },
+                            {
+                                "name": "Ring of Love Found",
+                                "access_rules": ["^$ring_of_love_found"],
+                                "item_count": 1,
+                                "chest_opened_img": "images/locations/Pickup Grey.png",
+                                "chest_unopened_img": "images/locations/Pickup.png"
+                            },
+                            {
+                                "name": "Sacred Streamer 1 Obtained (Rico)",
+                                "access_rules": [
+                                    "^$streamer_1_found"
+                                ],
+                                "item_count": 1,
+                                "chest_opened_img": "images/locations/Purchase Grey.png",
+                                "chest_unopened_img": "images/locations/Purchase.png"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Brilliant Beach",
+                        "map_locations": [
+                            {
+                                "map": "map_grove_of_life",
+                                "x": 450,
+                                "y": 220
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Precious Augmenter",
+                                "access_rules": [
+                                    "^$precious_augmenter"
+                                ],
+                                "item_count": 1,
+                                "chest_opened_img": "images/locations/Precious Augmenter Grey.png",
+                                "chest_unopened_img": "images/locations/Precious Augmenter.png"
+                            },
+                            {
+                                "name": "Sacred Streamer 3 Obtained (Underwater)",
+                                "access_rules": [
+                                    "^$streamer_3_found"
+                                ],
+                                "item_count": 1,
+                                "chest_opened_img": "images/locations/Pickup Grey.png",
+                                "chest_unopened_img": "images/locations/Pickup.png"
+                            },
+                            {
+                                "name": "Sacred Streamer 4 Obtained (Rings)",
+                                "access_rules": [
+                                    "^$streamer_4_found"
+                                ],
+                                "item_count": 1,
+                                "chest_opened_img": "images/locations/Task Grey.png",
+                                "chest_unopened_img": "images/locations/Task.png"
+                            },
+                            {
+                                "name": "Ring of Spirit Found",
+                                "access_rules": [
+                                    "^$ring_of_spirit_found"
+                                ],
+                                "item_count": 1,
+                                "chest_opened_img": "images/locations/Pickup Grey.png",
+                                "chest_unopened_img": "images/locations/Pickup.png"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Sacred Tree",
+                        "map_locations": [
+                            {
+                                "map": "map_grove_of_life",
+                                "x": 100,
+                                "y": 250
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Sacred Augmenter",
+                                "access_rules": [
+                                    "^$sacred_augmenter"
+                                ],
+                                "item_count": 1,
+                                "chest_opened_img": "images/locations/Sacred Augmenter Grey.png",
+                                "chest_unopened_img": "images/locations/Sacred Augmenter.png"
+                            },
+                            {
+                                "name": "Heart of the Forest",
+                                "access_rules": [
+                                    "^$heart_of_the_forest"
+                                ],
+                                "item_count": 1,
+                                "chest_opened_img": "images/locations/Heart of the Forest Grey.png",
+                                "chest_unopened_img": "images/locations/Heart of the Forest.png"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Tranquil Garden",
+                        "access_rules": [
+                            "^$tranquil_garden"
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map_grove_of_life",
+                                "x": 70,
+                                "y": 470
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Veiled Augmenter",
+                                "access_rules": [
+                                    "^$veiled_augmenter"
+                                ],
+                                "item_count": 1,
+                                "chest_opened_img": "images/locations/Veiled Augmenter Grey.png",
+                                "chest_unopened_img": "images/locations/Veiled Augmenter.png"
+                            },
+                            {
+                                "name": "Phallus Indusiatus",
+                                "access_rules": [
+                                    "$is_shroom_nerd"
+                                ],
+                                "item_count": 1,
+                                "chest_opened_img": "images/locations/Phallus Indusiatus Grey.png",
+                                "chest_unopened_img": "images/locations/Phallus Indusiatus.png"
+                            },
+                            {
+                                "name": "Band Aid Found",
+                                "access_rules": [
+                                    "^$band_aid_found"
+                                ],
+                                "item_count": 1,
+                                "chest_opened_img": "images/locations/Pickup Grey.png",
+                                "chest_unopened_img": "images/locations/Pickup.png"
+                            },
+                            {
+                                "name": "Ring of Youth Found",
+                                "access_rules": [
+                                    "^$ring_of_youth_found"
+                                ],
+                                "item_count": 1,
+                                "chest_opened_img": "images/locations/Pickup Grey.png",
+                                "chest_unopened_img": "images/locations/Pickup.png"
+                            },
+                            {
+                                "name": "Sacred Streamer 2 Obtained (Web Area)",
+                                "access_rules": [
+                                    "^$streamer_2_found"
+                                ],
+                                "item_count": 1,
+                                "chest_opened_img": "images/locations/Pickup Grey.png",
+                                "chest_unopened_img": "images/locations/Pickup.png"
+                            }
+
+                        ]
+                    },
+                    {
+                        "name": "Glowbug Rescue",
+                        "access_rules": [
+                            "^$glowbug_rescue"
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "map_grove_of_life",
+                                "x": 540,
+                                "y": 100
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Rainbow Augmenter",
+                                "access_rules": [
+                                    "^$rainbow_augmenter"
+                                ],
+                                "item_count": 1,
+                                "chest_opened_img": "images/locations/Rainbow Augmenter Grey.png",
+                                "chest_unopened_img": "images/locations/Rainbow Augmenter.png"
+                            },
+                            {
+                                "name": "Coprinellus Domesticus",
+                                "access_rules": [
+                                    "$is_shroom_nerd"
+                                ],
+                                "item_count": 1,
+                                "chest_opened_img": "images/locations/Coprinellus Domesticus Grey.png",
+                                "chest_unopened_img": "images/locations/Coprinellus Domesticus.png"
+                            },
+                            {
+                                "name": "Ring of Prosperity Found",
+                                "item_count": 1,
+                                "chest_opened_img": "images/locations/Pickup Grey.png",
+                                "chest_unopened_img": "images/locations/Pickup.png"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

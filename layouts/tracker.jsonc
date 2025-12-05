@@ -1,0 +1,104 @@
+{
+    "tracker_default": {
+        "type": "container",
+        "background": "#202020",
+        "content": {
+            "type": "dock",
+            "dropshadow": true,
+            "content": [
+                {
+                    "type": "dock",
+                    "dock": "left",
+                    "v_alignment": "stretch",
+                    "content": [
+                        {
+                            "type": "group",
+                            "header": "Useful",
+                            "dock": "top",
+                            "content": {
+                                "type": "layout",
+                                "key": "layout_useful"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Tools",
+                            "dock": "top",
+                            "content": {
+                                "type": "layout",
+                                "key": "layout_tools"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Garden of Spring",
+                            "dock": "top",
+                            "content": {
+                                "type": "layout",
+                                "key": "layout_spring"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Forest of Fall",
+                            "dock": "top",
+                            "content": {
+                                "type": "layout",
+                                "key": "layout_fall"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Lake of Bloom",
+                            "dock": "top",
+                            "content": {
+                                "type": "layout",
+                                "key": "layout_bloom"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Grove of Life",
+                            "dock": "top",
+                            "content": {
+                                "type": "layout",
+                                "key": "layout_grove"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Skins",
+                            "dock": "top",
+                            "content": {
+                                "type": "layout",
+                                "key": "layout_skins"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Levels",
+                            "dock": "top",
+                            "content": {
+                                "type": "layout",
+                                "key": "layout_areas"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "dock",
+                    "background": "#000000",
+                    "content": [
+                        {
+                            "type": "layout",
+                            "h_alignment": "stretch",
+                            "v_alignment": "stretch",
+                            "margin": "0,0,3,0",
+                            "key": "layout_maps"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

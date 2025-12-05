@@ -1,0 +1,48 @@
+{
+    "layout_maps": {
+        "type": "container",
+        "content": [
+            {
+                "type": "tabbed",
+                "tabs": [
+                    {
+                        "title": "Garden of Spring",
+                        "content": {
+                            "type": "map",
+                            "maps": [
+                                "map_garden_of_spring"
+                            ]
+                        }
+                    },
+                    {
+                        "title": "Forest of Fall",
+                        "content": {
+                            "type": "map",
+                            "maps": [
+                                "map_forest_of_fall"
+                            ]
+                        }
+                    },
+                    {
+                        "title": "Lake of Bloom",
+                        "content": {
+                            "type": "map",
+                            "maps": [
+                                "map_lake_of_bloom"
+                            ]
+                        }
+                    },
+                    {
+                        "title": "Grove of Life",
+                        "content": {
+                            "type": "map",
+                            "maps": [
+                                "map_grove_of_life"
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

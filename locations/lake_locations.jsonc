@@ -1,0 +1,175 @@
+[
+    {
+        "name": "Lake of Bloom",
+        "access_rules": [
+            "^$lake_of_bloom"
+        ],
+        "children": [
+            {
+                "name": "Twin Beach",
+                "map_locations": [
+                    {
+                        "map": "map_lake_of_bloom",
+                        "x": 353,
+                        "y": 100
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Lake Map Found",
+                        "item_count": 1,
+                        "chest_opened_img": "images/locations/Pickup Grey.png",
+                        "chest_unopened_img": "images/locations/Pickup.png"
+                    }
+                ]
+            },
+            {
+                "name": "Hidden Lotus",
+                "map_locations": [
+                    {
+                        "map": "map_lake_of_bloom",
+                        "x": 175,
+                        "y": 115
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Psathyrella Aquatica",
+                        "access_rules": ["^$psathyrella_aquatica"],
+                        "item_count": 1,
+                        "chest_opened_img": "images/locations/Psathyrella Aquatica Grey.png",
+                        "chest_unopened_img": "images/locations/Psathyrella Aquatica.png"
+                    }
+                ]
+            },
+            {
+                "name": "Diver's Locus",
+                "map_locations": [
+                    {
+                        "map": "map_lake_of_bloom",
+                        "x": 280,
+                        "y": 230
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Clavaria Augmenter",
+                        "access_rules": ["^$clavaria_augmenter"],
+                        "item_count": 1,
+                        "chest_opened_img": "images/locations/Clavaria Augmenter Grey.png",
+                        "chest_unopened_img": "images/locations/Clavaria Augmenter.png"
+                    },
+                    {
+                        "name": "Essence of Water Purchase",
+                        "access_rules": ["^$purchase"],
+                        "item_count": 1,
+                        "chest_opened_img": "images/locations/Purchase Grey.png",
+                        "chest_unopened_img": "images/locations/Purchase.png"
+                    }
+                ]
+            },
+            {
+                "name": "Indigo Island",
+                "map_locations": [
+                    {
+                        "map": "map_lake_of_bloom",
+                        "x": 350,
+                        "y": 470
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Lactarius Indigo",
+                        "access_rules": ["$is_shroom_nerd"],
+                        "item_count": 1,
+                        "chest_opened_img": "images/locations/Lactarius Indigo Grey.png",
+                        "chest_unopened_img": "images/locations/Lactarius Indigo.png"
+                    },
+                    {
+                        "name": "Indigo Island Energy Spore",
+                        "access_rules": ["^$purchase"],
+                        "item_count": 1,
+                        "chest_opened_img": "images/locations/Purchase Grey.png",
+                        "chest_unopened_img": "images/locations/Purchase.png"
+                    },
+                    {
+                        "name": "Indigo Island Wind Essence",
+                        "access_rules": ["^$purchase"],
+                        "item_count": 1,
+                        "chest_opened_img": "images/locations/Purchase Grey.png",
+                        "chest_unopened_img": "images/locations/Purchase.png"
+                    },
+                    {
+                        "name": "Secret Opener Found",
+                        "access_rules": ["^$secret_opener_found"],
+                        "item_count": 1,
+                        "chest_opened_img": "images/locations/Pickup Grey.png",
+                        "chest_unopened_img": "images/locations/Pickup.png"
+                    }
+                ]
+            },
+            {
+                "name": "Sacred Holm",
+                "map_locations": [
+                    {
+                        "map": "map_lake_of_bloom",
+                        "x": 250,
+                        "y": 500
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Clavaria Zollingeri",
+                        "access_rules": ["$is_shroom_nerd"],
+                        "item_count": 1,
+                        "chest_opened_img": "images/locations/Clavaria Zollingeri Grey.png",
+                        "chest_unopened_img": "images/locations/Clavaria Zollingeri.png"
+                    },
+                    {
+                        "name": "Hygrocybe Conica",
+                        "access_rules": ["^$hygrocybe_conica"],
+                        "item_count": 1,
+                        "chest_opened_img": "images/locations/Hygrocybe Conica Grey.png",
+                        "chest_unopened_img": "images/locations/Hygrocybe Conica.png"
+                    }
+                ]
+            },
+            {
+                "name": "Chungy Cave",
+                "access_rules": [
+                    "^$chungy_cave"
+                ],
+                "map_locations": [
+                    {
+                        "map": "map_lake_of_bloom",
+                        "x": 152,
+                        "y": 108
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Ink Augmenter",
+                        "access_rules": ["^$ink_augmenter"],
+                        "item_count": 1,
+                        "chest_opened_img": "images/locations/Ink Augmenter Grey.png",
+                        "chest_unopened_img": "images/locations/Ink Augmenter.png"
+                    },
+                    {
+                        "name": "Old String Found",
+                        "access_rules": ["^$old_string_found"],
+                        "item_count": 1,
+                        "chest_opened_img": "images/locations/Pickup Grey.png",
+                        "chest_unopened_img": "images/locations/Pickup.png"
+                    },
+                    {
+                        "name": "Chungy Saved",
+                        "access_rules": ["^$chungy_saved"],
+                        "item_count": 1,
+                        "chest_opened_img": "images/locations/Task Grey.png",
+                        "chest_unopened_img": "images/locations/Task.png"
+                    }                    
+                ]
+            }
+        ]
+    }
+]

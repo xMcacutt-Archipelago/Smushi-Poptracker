@@ -1,0 +1,18 @@
+{
+    "name": "Smushi Come Home Archipelago",
+    "game_name": "Smushi Come Home",
+    "package_version": "1.0.0",
+    "package_uid": "smushi_come_home_ap",
+    "platform": "PC",
+    "author": "xMcacutt",
+    "variants": {
+        "Map Tracker": {
+            "display_name": "Map Tracker",
+            "flags": [
+                "ap"
+            ]
+        }
+    },
+    "versions_url": "",
+    "min_poptracker_version": "0.27.0"
+}

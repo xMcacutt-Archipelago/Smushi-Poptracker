@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Garden of Spring",
+        "type": "static",
+        "img": "images/areas/Garden of Spring.png",
+        "codes": "garden_of_spring"
+    },
+    {
+        "name": "Forest of Fall",
+        "type": "toggle",
+        "img": "images/areas/Forest of Fall.png",
+        "codes": "forest_of_fall"
+    },
+    {
+        "name": "Lake of Bloom",
+        "type": "toggle",
+        "img": "images/areas/Lake of Bloom.png",
+        "codes": "lake_of_bloom"
+    },
+    {
+        "name": "Grove of Life",
+        "type": "toggle",
+        "img": "images/areas/Grove of Life.png",
+        "codes": "grove_of_life"
+    }
+]

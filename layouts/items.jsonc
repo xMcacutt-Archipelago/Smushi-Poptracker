@@ -1,0 +1,129 @@
+{
+    "layout_skins": {
+        "type": "itemgrid",
+        "item_margin": "5,5",
+        "h_alignment": "left",
+        "rows": [
+            [
+                "classic_shroomie",
+                "amethyst_shroomie",
+                "flower_shroomie",
+                "strawberry_shroomie",
+                "sho_bowl_shroomie",
+                "pelagic_shroomie",
+                "verdant_shroomie",
+                "honey_shroomie"
+            ],
+            [
+                "sparkle_shroomie",
+                "clavaria_shroomie",
+                "inkcap_shroomie",
+                "sharp_shroomie",
+                "precious_shroomie",
+                "rainbow_shroomie",
+                "veiled_shroomie",
+                "sacred_shroomie"
+            ]
+        ]
+    },
+    "layout_useful": {
+        "type": "itemgrid",
+        "item_margin": "5,5",
+        "h_alignment": "left",
+        "rows": [
+            [
+                "energy_spore",
+                "super_spore",
+                "wind_essence",
+                "super_essence",
+                "conch_shell"
+            ]
+        ]
+    },
+    "layout_tools": {
+        "type": "itemgrid",
+        "item_margin": "5,5",
+        "h_alignment": "left",
+        "rows": [
+            [
+                "leaf_glider",
+                "rusty_hooks",
+                "sturdy_hooks",
+                "tool_of_mining",
+                "blade_of_power",
+                "firestarter_kit",
+                "essence_of_water",
+                "mycology_journal"
+            ]
+        ]
+    },
+    "layout_spring": {
+        "type": "itemgrid",
+        "item_margin": "5,5",
+        "h_alignment": "left",
+        "rows": [
+            [
+                "ancient_relic_1",
+                "ancient_relic_2",
+                "blueberry",
+                "tool_of_writing",
+                "band_of_elasticity"
+            ]
+        ]
+    },
+    "layout_fall": {
+        "type": "itemgrid",
+        "item_margin": "5,5",
+        "h_alignment": "left",
+        "rows": [
+            [
+                "secret_password",
+                "explosive_powder",
+                "container_of_light",
+                "headlamp"
+            ]
+        ]
+    },
+    "layout_bloom": {
+        "type": "itemgrid",
+        "item_margin": "5,5",
+        "h_alignment": "left",
+        "rows": [
+            [
+                "secret_opener",
+                "old_string",
+                "lotus_flower"
+            ]
+        ]
+    },
+    "layout_grove": {
+        "type": "itemgrid",
+        "item_margin": "5,5",
+        "h_alignment": "left",
+        "rows": [
+            [
+                "ring_of_love",
+                "ring_of_youth",
+                "ring_of_truth",
+                "ring_of_prosperity",
+                "ring_of_spirit",
+                "screwdriver",
+                "band_aid",
+                "sacred_streamer"
+            ]
+        ]
+    },
+    "layout_areas": {
+        "type": "itemgrid",
+        "item_margin": "5,5",
+        "h_alignment": "left",
+        "rows": [
+            [
+                "garden_of_spring",
+                "forest_of_fall",
+                "lake_of_bloom",
+                "grove_of_life"
+            ]
+        ]
+    }
+}

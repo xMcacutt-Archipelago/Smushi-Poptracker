@@ -1,0 +1,270 @@
+[
+    {
+        "name": "Forest of Fall",
+        "access_rules": [
+            "^$forest_of_fall"
+        ],
+        "children": [
+            {
+                "name": "Waxcap Falls",
+                "map_locations": [
+                    {
+                        "map": "map_forest_of_fall",
+                        "x": 300,
+                        "y": 450
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Honey Augmenter",
+                        "item_count": 1,
+                        "chest_opened_img": "images/locations/Honey Augmenter Grey.png",
+                        "chest_unopened_img": "images/locations/Honey Augmenter.png"
+                    },
+                    {
+                        "name": "Hygrocybe Flavescens",
+                        "access_rules": ["$is_shroom_nerd"],
+                        "item_count": 1,
+                        "chest_opened_img": "images/locations/Hygrocybe Flavescens Grey.png",
+                        "chest_unopened_img": "images/locations/Hygrocybe Flavescens.png"
+                    },
+                    {
+                        "name": "Amanita Muscaria",
+                        "access_rules": ["$is_shroom_nerd"],
+                        "item_count": 1,
+                        "chest_opened_img": "images/locations/Amanita Muscaria Grey.png",
+                        "chest_unopened_img": "images/locations/Amanita Muscaria.png"
+                    },
+                    {
+                        "name": "Forest Map Found",
+                        "item_count": 1,
+                        "chest_opened_img": "images/locations/Pickup Grey.png",
+                        "chest_unopened_img": "images/locations/Pickup.png"
+                    },
+                    {
+                        "name": "Sturdy Hooks Purchase",
+                        "access_rules": ["^$purchase"],
+                        "item_count": 1,
+                        "chest_opened_img": "images/locations/Purchase Grey.png",
+                        "chest_unopened_img": "images/locations/Purchase.png"
+                    },
+                    {
+                        "name": "Nectar Collector",
+                        "item_count": 1,
+                        "chest_opened_img": "images/locations/Task Grey.png",
+                        "chest_unopened_img": "images/locations/Task.png"
+                    }
+                ]
+            },
+            {
+                "name": "Water Cave",
+                "access_rules": [
+                    "^$waxcap_falls_cave"
+                ],
+                "map_locations": [
+                    {
+                        "map": "map_forest_of_fall",
+                        "x": 345,
+                        "y": 530
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Sparkle Augmenter",
+                        "access_rules": ["^$sparkle_augmenter"],
+                        "item_count": 1,
+                        "chest_opened_img": "images/locations/Sparkle Augmenter Grey.png",
+                        "chest_unopened_img": "images/locations/Sparkle Augmenter.png"
+                    },
+                    {
+                        "name": "Coprinus Comatus",
+                        "access_rules": ["$is_shroom_nerd"],
+                        "item_count": 1,
+                        "chest_opened_img": "images/locations/Coprinus Comatus Grey.png",
+                        "chest_unopened_img": "images/locations/Coprinus Comatus.png"
+                    }
+                ]
+            },
+            {
+                "name": "Restless Stream",
+                "map_locations": [
+                    {
+                        "map": "map_forest_of_fall",
+                        "x": 318,
+                        "y": 318
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Restless Stream Energy Spore",
+                        "access_rules": ["^$restless_stream_energy_spore"],
+                        "item_count": 1,
+                        "chest_opened_img": "images/locations/Pickup Grey.png",
+                        "chest_unopened_img": "images/locations/Pickup.png"
+                    }
+                ]
+            },
+            {
+                "name": "Cryptic Caverns",
+                "access_rules": [
+                    "^$cryptic_caverns"
+                ],
+                "map_locations": [
+                    {
+                        "map": "map_forest_of_fall",
+                        "x": 325,
+                        "y": 175
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Cantharellus Cibarius",
+                        "access_rules": ["$is_shroom_nerd"],
+                        "item_count": 1,
+                        "chest_opened_img": "images/locations/Cantharellus Cibarius Grey.png",
+                        "chest_unopened_img": "images/locations/Cantharellus Cibarius.png"
+                    },
+                    {
+                        "name": "Daedaleopsis Tricolor",
+                        "access_rules": ["$is_shroom_nerd"],
+                        "item_count": 1,
+                        "chest_opened_img": "images/locations/Daedaleopsis Tricolor Grey.png",
+                        "chest_unopened_img": "images/locations/Daedaleopsis Tricolor.png"
+                    },
+                    {
+                        "name": "Explosive Powder 1 Found",
+                        "access_rules": ["^$explosive_powder_1_found"],
+                        "item_count": 1,
+                        "chest_opened_img": "images/locations/Pickup Grey.png",
+                        "chest_unopened_img": "images/locations/Pickup.png"
+                    },
+                    {
+                        "name": "Cryptic Caverns Wind Essence",
+                        "access_rules": ["^$cryptic_caverns_wind_essence"],
+                        "item_count": 1,
+                        "chest_opened_img": "images/locations/Pickup Grey.png",
+                        "chest_unopened_img": "images/locations/Pickup.png"
+                    },
+                    {
+                        "name": "Container of Light Found",
+                        "access_rules": ["^$container_of_light_found"],
+                        "item_count": 1,
+                        "chest_opened_img": "images/locations/Pickup Grey.png",
+                        "chest_unopened_img": "images/locations/Pickup.png"
+                    },
+                    {
+                        "name": "Headlamp Acquired",
+                        "access_rules": ["^$headlamp_acquired"],
+                        "item_count": 1,
+                        "chest_opened_img": "images/locations/Pickup Grey.png",
+                        "chest_unopened_img": "images/locations/Pickup.png"
+                    }
+                ]
+            },
+            {
+                "name": "Dark Cave",
+                "access_rules": [
+                    "^$dark_cave"
+                ],
+                "map_locations": [
+                    {
+                        "map": "map_forest_of_fall",
+                        "x": 260,
+                        "y": 110
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Pelagic Augmenter",
+                        "access_rules": ["^$pelagic_augmenter"],
+                        "item_count": 1,
+                        "chest_opened_img": "images/locations/Pelagic Augmenter Grey.png",
+                        "chest_unopened_img": "images/locations/Pelagic Augmenter.png"
+                    },
+                    {
+                        "name": "Mycena Chlorophos",
+                        "access_rules": ["$is_shroom_nerd"],
+                        "item_count": 1,
+                        "chest_opened_img": "images/locations/Mycena Chlorophos Grey.png",
+                        "chest_unopened_img": "images/locations/Mycena Chlorophos.png"
+                    },
+                    {
+                        "name": "Explosive Powder 2 Found",
+                        "item_count": 1,
+                        "chest_opened_img": "images/locations/Pickup Grey.png",
+                        "chest_unopened_img": "images/locations/Pickup.png"
+                    },
+                    {
+                        "name": "Dark Cave Energy Spore",
+                        "access_rules": ["^$dark_cave_energy_spore"],
+                        "item_count": 1,
+                        "chest_opened_img": "images/locations/Pickup Grey.png",
+                        "chest_unopened_img": "images/locations/Pickup.png"
+                    }
+                ]
+            },
+            {
+                "name": "Maple Sanctuary",
+                "access_rules": [
+                    "^$maple_sanctuary"
+                ],
+                "map_locations": [
+                    {
+                        "map": "map_forest_of_fall",
+                        "x": 130,
+                        "y": 400
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Verdant Augmenter",
+                        "item_count": 1,
+                        "chest_opened_img": "images/locations/Verdant Augmenter Grey.png",
+                        "chest_unopened_img": "images/locations/Verdant Augmenter.png"
+                    },
+                    {
+                        "name": "Exsudoporus Frostii",
+                        "access_rules": ["$is_shroom_nerd"],
+                        "item_count": 1,
+                        "chest_opened_img": "images/locations/Exsudoporus Frostii Grey.png",
+                        "chest_unopened_img": "images/locations/Exsudoporus Frostii.png"
+                    },
+                    {
+                        "name": "Secret Password Found",
+                        "item_count": 1,
+                        "chest_opened_img": "images/locations/Task Grey.png",
+                        "chest_unopened_img": "images/locations/Task.png"
+                    },
+                    {
+                        "name": "Super Essence Found",
+                        "item_count": 1,
+                        "access_rules": ["^$super_essence_found"],
+                        "chest_opened_img": "images/locations/Pickup Grey.png",
+                        "chest_unopened_img": "images/locations/Pickup.png"
+                    },
+                    {
+                        "name": "Firestarter Kit Purchase",
+                        "access_rules": ["^$purchase"],
+                        "item_count": 1,
+                        "chest_opened_img": "images/locations/Purchase Grey.png",
+                        "chest_unopened_img": "images/locations/Purchase.png"
+                    },
+                    {
+                        "name": "Maple Sanctuary Energy Spore",
+                        "access_rules": ["^$maple_sanctuary_energy_spore"],
+                        "item_count": 1,
+                        "chest_opened_img": "images/locations/Pickup Grey.png",
+                        "chest_unopened_img": "images/locations/Pickup.png"
+                    },
+                    {
+                        "name": "Brick Chimney Wind Essence",
+                        "access_rules": ["^$brick_chimney_wind_essence"],
+                        "item_count": 1,
+                        "chest_opened_img": "images/locations/Pickup Grey.png",
+                        "chest_unopened_img": "images/locations/Pickup.png"
+                    }
+                ]
+            }
+        ]
+    }
+]

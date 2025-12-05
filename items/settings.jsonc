@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Advanced Logic",
+        "type": "toggle",
+        "img": "images/locations/Pickup.png",
+        "codes": "advanced_logic",
+        "hide_in_layout": true
+    },
+    {
+        "name": "Standard Logic",
+        "type": "toggle",
+        "img": "images/locations/Pickup.png",
+        "codes": "standard_logic",
+        "hide_in_layout": true
+    }
+]

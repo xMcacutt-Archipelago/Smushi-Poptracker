@@ -1,0 +1,331 @@
+[
+    {
+        "name": "Garden of Spring",
+        "children": [
+            {
+                "name": "Snowy Forest",
+                "map_locations": [
+                    {
+                        "map": "map_garden_of_spring",
+                        "x": 390,
+                        "y": 520
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Tools of the Explorer Found",
+                        "access_rules": [
+                            "^$tools_of_the_explorer_found"
+                        ],
+                        "item_count": 1,
+                        "chest_opened_img": "images/locations/Pickup Grey.png",
+                        "chest_unopened_img": "images/locations/Pickup.png"
+                    },
+                    {
+                        "name": "Tool of Mining Found",
+                        "access_rules": ["^$tool_of_mining_found"],
+                        "item_count": 1,
+                        "chest_opened_img": "images/locations/Pickup Grey.png",
+                        "chest_unopened_img": "images/locations/Pickup.png"
+                    },
+                    {
+                        "name": "Super Spore Received",
+                        "access_rules": ["^$super_spore_received"],
+                        "item_count": 1,
+                        "chest_opened_img": "images/locations/Pickup Grey.png",
+                        "chest_unopened_img": "images/locations/Pickup.png"
+                    }
+                ]
+            },
+            {
+                "name": "Crystal Caves",
+                "access_rules": ["^$crystal_caves"],
+                "map_locations": [
+                    {
+                        "map": "map_garden_of_spring",
+                        "x": 80,
+                        "y": 85
+                    },
+                    {
+                        "map": "map_garden_of_spring",
+                        "x": 87,
+                        "y": 250
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Crystal Cave Blueberry Found",
+                        "access_rules": ["^$crystal_cave_blueberry_found"],
+                        "item_count": 1,
+                        "chest_opened_img": "images/locations/Pickup Grey.png",
+                        "chest_unopened_img": "images/locations/Pickup.png"
+                    }
+                ]
+            },
+            {
+                "name": "Mycena Entry",
+                "map_locations": [
+                    {
+                        "map": "map_garden_of_spring",
+                        "x": 250,
+                        "y": 420
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Purple Augmenter",
+                        "access_rules": [
+                            "^$purple_augmenter"
+                        ],
+                        "item_count": 1,
+                        "chest_opened_img": "images/locations/Purple Augmenter Grey.png",
+                        "chest_unopened_img": "images/locations/Purple Augmenter.png"
+                    },
+                    {
+                        "name": "Flower Augmenter",
+                        "access_rules": [
+                            "^$flower_augmenter"
+                        ],
+                        "item_count": 1,
+                        "chest_opened_img": "images/locations/Flower Augmenter Grey.png",
+                        "chest_unopened_img": "images/locations/Flower Augmenter.png"
+                    },
+                    {
+                        "name": "Mycena Haematopus",
+                        "access_rules": [
+                            "$is_shroom_nerd"
+                        ],
+                        "item_count": 1,
+                        "chest_opened_img": "images/locations/Mycena Haematopus Grey.png",
+                        "chest_unopened_img": "images/locations/Mycena Haematopus.png"
+                    },
+                    {
+                        "name": "Garden Map Found",
+                        "item_count": 1,
+                        "chest_opened_img": "images/locations/Pickup Grey.png",
+                        "chest_unopened_img": "images/locations/Pickup.png"
+                    },
+                    {
+                        "name": "Yellow Shrine Energy Spore",
+                        "item_count": 1,
+                        "chest_opened_img": "images/locations/Pickup Grey.png",
+                        "chest_unopened_img": "images/locations/Pickup.png"
+                    },
+                    {
+                        "name": "Mycology Journal Unlock",
+                        "access_rules": [
+                            "^$mycology_journal_unlock"
+                        ],
+                        "item_count": 1,
+                        "chest_opened_img": "images/locations/Task Grey.png",
+                        "chest_unopened_img": "images/locations/Task.png"
+                    },
+                    {
+                        "name": "Tool of Writing Found",
+                        "item_count": 1,
+                        "chest_opened_img": "images/locations/Pickup Grey.png",
+                        "chest_unopened_img": "images/locations/Pickup.png"
+                    }
+                ]
+            },
+            {
+                "name": "Ancient Passage",
+                "map_locations": [
+                    {
+                        "map": "map_garden_of_spring",
+                        "x": 150,
+                        "y": 350
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Secret Augmenter",
+                        "access_rules": [
+                            "^$secret_augmenter"
+                        ],
+                        "item_count": 1,
+                        "chest_opened_img": "images/locations/Secret Augmenter Grey.png",
+                        "chest_unopened_img": "images/locations/Secret Augmenter.png"
+                    },
+                    {
+                        "name": "Hypholoma Capnoides",
+                        "access_rules": [
+                            "$is_shroom_nerd"
+                        ],
+                        "item_count": 1,
+                        "chest_opened_img": "images/locations/Hypholoma Capnoides Grey.png",
+                        "chest_unopened_img": "images/locations/Hypholoma Capnoides.png"
+                    },
+                    {
+                        "name": "Blue Shrine Energy Spore",
+                        "access_rules": [
+                            "^$blue_shrine_energy_spore"
+                        ],
+                        "item_count": 1,
+                        "chest_opened_img": "images/locations/Pickup Grey.png",
+                        "chest_unopened_img": "images/locations/Pickup.png"
+                    }
+                ]
+            },
+            {
+                "name": "Myrtle Pools",
+                "map_locations": [
+                    {
+                        "map": "map_garden_of_spring",
+                        "x": 400,
+                        "y": 300
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Volvopluteus Gloiocephalus",
+                        "access_rules": [
+                            "$is_shroom_nerd"
+                        ],
+                        "item_count": 1,
+                        "chest_opened_img": "images/locations/Volvopluteus Gloiocephalus Grey.png",
+                        "chest_unopened_img": "images/locations/Volvopluteus Gloiocephalus.png"
+                    },
+                    {
+                        "name": "Macrolepiota Procera",
+                        "access_rules": [
+                            "^$macrolepiota_procera"
+                        ],
+                        "item_count": 1,
+                        "chest_opened_img": "images/locations/Macrolepiota Procera Grey.png",
+                        "chest_unopened_img": "images/locations/Macrolepiota Procera.png"
+                    },
+                    {
+                        "name": "Myrtle Pools Wind Essence",
+                        "access_rules": [
+                            "^$myrtle_pools_wind_essence"
+                        ],
+                        "item_count": 1,
+                        "chest_opened_img": "images/locations/Pickup Grey.png",
+                        "chest_unopened_img": "images/locations/Pickup.png"
+                    },
+                    {
+                        "name": "Myrtle Pools Blueberry Purchase",
+                        "access_rules": [
+                            "^$purchase"
+                        ],
+                        "item_count": 1,
+                        "chest_opened_img": "images/locations/Purchase Grey.png",
+                        "chest_unopened_img": "images/locations/Purchase.png"
+                    },
+                    {
+                        "name": "Ancient Relic 1 Found",
+                        "access_rules": [
+                            "^$ancient_relic_1_found"
+                        ],
+                        "item_count": 1,
+                        "chest_opened_img": "images/locations/Pickup Grey.png",
+                        "chest_unopened_img": "images/locations/Pickup.png"
+                    },
+                    {
+                        "name": "Ancient Relic 2 Found",
+                        "access_rules": [
+                            "^$ancient_relic_2_found"
+                        ],
+                        "item_count": 1,
+                        "chest_opened_img": "images/locations/Pickup Grey.png",
+                        "chest_unopened_img": "images/locations/Pickup.png"
+                    },
+                    {
+                        "name": "Ancient Relics Returned",
+                        "access_rules": [
+                            "^$ancient_relics_returned"
+                        ],
+                        "item_count": 1,
+                        "chest_opened_img": "images/locations/Task Grey.png",
+                        "chest_unopened_img": "images/locations/Task.png"
+                    }
+                ]
+            },
+            {
+                "name": "Anemone Woods",
+                "map_locations": [
+                    {
+                        "map": "map_garden_of_spring",
+                        "x": 150,
+                        "y": 150
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Strawberry Augmenter",
+                        "access_rules": [
+                            "^$strawberry_augmenter"
+                        ],
+                        "item_count": 1,
+                        "chest_opened_img": "images/locations/Strawberry Augmenter Grey.png",
+                        "chest_unopened_img": "images/locations/Strawberry Augmenter.png"
+                    },
+                    {
+                        "name": "Entoloma Hochstetteri",
+                        "access_rules": [
+                            "$is_shroom_nerd"
+                        ],
+                        "item_count": 1,
+                        "chest_opened_img": "images/locations/Entoloma Hochstetteri Grey.png",
+                        "chest_unopened_img": "images/locations/Entoloma Hochstetteri.png"
+                    },
+                    {
+                        "name": "Anemone Woods Wind Essence",
+                        "access_rules": [
+                            "^$anemone_woods_wind_essence"
+                        ],
+                        "item_count": 1,
+                        "chest_opened_img": "images/locations/Pickup Grey.png",
+                        "chest_unopened_img": "images/locations/Pickup.png"
+                    },
+                    {
+                        "name": "Band of Elasticity Found",
+                        "item_count": 1,
+                        "chest_opened_img": "images/locations/Pickup Grey.png",
+                        "chest_unopened_img": "images/locations/Pickup.png"
+                    }
+                ]
+            },
+            {
+                "name": "Bolete Beach",
+                "map_locations": [
+                    {
+                        "map": "map_garden_of_spring",
+                        "x": 300,
+                        "y": 100
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Chalciporus Piperatus",
+                        "access_rules": [
+                            "$is_shroom_nerd"
+                        ],
+                        "item_count": 1,
+                        "chest_opened_img": "images/locations/Chalciporus Piperatus Grey.png",
+                        "chest_unopened_img": "images/locations/Chalciporus Piperatus.png"
+                    },
+                    {
+                        "name": "Pink Shrine Energy Spore",
+                        "access_rules": [
+                            "^$pink_shrine_energy_spore"
+                        ],
+                        "item_count": 1,
+                        "chest_opened_img": "images/locations/Pickup Grey.png",
+                        "chest_unopened_img": "images/locations/Pickup.png"
+                    },
+                    {
+                        "name": "Blade of Power Purchase",
+                        "access_rules": [
+                            "^$purchase"
+                        ],
+                        "item_count": 1,
+                        "chest_opened_img": "images/locations/Purchase Grey.png",
+                        "chest_unopened_img": "images/locations/Purchase.png"
+                    }
+                ]
+            }
+        ]
+    }
+]
