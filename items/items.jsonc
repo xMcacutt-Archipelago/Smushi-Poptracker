@@ -193,6 +193,13 @@
         "codes": "conch_shell"
     },
     {
+        "name": "Ancient Relic",
+        "type": "consumable",
+        "codes": "ancient_relic",
+        "max_quantity": 2,
+        "hide_in_layout": true
+    },
+    {
         "name": "Ancient Relic 1",
         "type": "toggle",
         "img": "images/items/Coin1.png",

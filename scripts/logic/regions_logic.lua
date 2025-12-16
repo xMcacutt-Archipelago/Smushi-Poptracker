@@ -71,7 +71,8 @@ function grove_of_life()
         elders_home(),
         any(
             can_go_water() and can_fly() and can_screw_glass() and has_climb_level(2),
-            adv(can_fly() and can_screw_glass())
+            adv(can_fly() and can_screw_glass()),
+            adv(has_climb_level(2), can_fly(), can_go_water())
         )
     )
 end

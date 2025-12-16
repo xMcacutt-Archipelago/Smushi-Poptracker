@@ -2,3 +2,5 @@ todo.*
 .~lock.*
 *.xcf
 .idea
+make_release.bat
+Smushi-Poptracker-v1.0.0.zip

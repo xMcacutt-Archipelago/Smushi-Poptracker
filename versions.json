@@ -7,6 +7,15 @@
             "changelog": [
                 "Initial Release"
             ]
+        },
+        {
+            "package_version": "1.0.1",
+            "download_url": "https://github.com/xMcacutt-Archipelago/Smushi-Poptracker/releases/download/1.0.1/Smushi-Poptracker-v1.0.1.zip",
+            "sha256": "d88800a64de312097cf519237c3375df9fd2cd189c5a3d0eff06c443e3400022",
+            "changelog": [
+                "various logic changes"
+            ]
         }
     ]
+    
 }

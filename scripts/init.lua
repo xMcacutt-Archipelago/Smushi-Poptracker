@@ -31,6 +31,15 @@ ScriptHost:AddWatchForCode("progressive_hook_handler", "progressive_hooks", func
     end
 end)
 
+ScriptHost:AddWatchForCode("relic_handler", "ancient_relic", function(code)
+    local count = Tracker:ProviderCountForCode("ancient_relic")
+    if count == 1 then
+        Tracker:FindObjectForCode("ancient_relic_1").Active = true
+    elseif count == 2 then
+        Tracker:FindObjectForCode("ancient_relic_2").Active = true
+    end
+end)
+
 ScriptHost:AddWatchForCode("level_toggle", "*", function(code)
     local forest = Tracker:FindObjectForCode('@Forest of Fall')
     if forest.AccessibilityLevel == AccessibilityLevel.Normal then

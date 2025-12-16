@@ -59,7 +59,7 @@ end
 
 function ancient_relic_2_found()
     return any(
-        can_mine() and ((can_fly() and has_climb_level(1)) or has_climb_level(2)),
+        can_mine() and can_fly() and has_climb_level(1),
         adv(can_fly() and has_climb_level(1)),
         adv(can_fly() and can_mine()),
         adv(has_climb_level(1) and can_mine()),
@@ -85,7 +85,7 @@ end
 function explosive_powder_1_found()
     return any(
         is_member(),
-        adv(can_fly() or has_climb_level(1) or can_hm01())
+        adv((can_fly() or has_climb_level(1) or can_hm01()) and has("conch_shell", 1))
     )
 end
 
@@ -204,7 +204,8 @@ end
 
 function ring_of_youth_found()
     return any(
-        can_hm01()
+        can_hm01(),
+        adv(can_glue() and has("conch_shell", 1))
     )
 end
 
@@ -232,7 +233,7 @@ end
 function streamer_2_found()
     return any(
         can_hm01() and can_glue(),
-        adv(true)
+        adv(can_hm01())
     )
 end
 
@@ -264,6 +265,12 @@ function hygrocybe_conica()
     return any(
         has_climb_level(1) and can_fly() and can_mine() and is_shroom_nerd(),
         adv(has_climb_level(1) and can_fly() and is_shroom_nerd())
+    )
+end
+
+function mycena_chlorophos() 
+    return any (
+        is_shroom_nerd() and can_fly() and has_climb_level(1) and can_hm01()
     )
 end
 
