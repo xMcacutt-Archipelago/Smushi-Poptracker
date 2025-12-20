@@ -15,6 +15,15 @@
             "changelog": [
                 "various logic changes"
             ]
+        },
+        {
+            "package_version": "1.0.2",
+            "download_url": "https://github.com/xMcacutt-Archipelago/Smushi-Poptracker/releases/download/1.0.2/Smushi-Poptracker-v1.0.2.zip",
+            "sha256": "b8d8651c50db4d723b3657e62a14657047f8fc2e1329d4b3f4ef3a74ee314016",
+            "changelog": [
+                "Fix missing mycology journal requirement",
+                "Fix requirements for Forest entrance"
+            ]
         }
     ]
     

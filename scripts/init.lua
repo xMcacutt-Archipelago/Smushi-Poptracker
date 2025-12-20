@@ -28,6 +28,9 @@ ScriptHost:AddWatchForCode("progressive_hook_handler", "progressive_hooks", func
         Tracker:FindObjectForCode("rusty_hooks").Active = true
     elseif count == 2 then
         Tracker:FindObjectForCode("sturdy_hooks").Active = true
+    else
+        Tracker:FindObjectForCode("rusty_hooks").Active = false
+        Tracker:FindObjectForCode("sturdy_hooks").Active = false
     end
 end)
 
@@ -37,6 +40,9 @@ ScriptHost:AddWatchForCode("relic_handler", "ancient_relic", function(code)
         Tracker:FindObjectForCode("ancient_relic_1").Active = true
     elseif count == 2 then
         Tracker:FindObjectForCode("ancient_relic_2").Active = true
+    else 
+        Tracker:FindObjectForCode("ancient_relic_1").Active = false
+        Tracker:FindObjectForCode("ancient_relic_2").Active = false
     end
 end)
 

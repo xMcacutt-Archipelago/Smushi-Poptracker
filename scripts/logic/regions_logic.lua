@@ -1,14 +1,14 @@
 function crystal_caves()
     return any(
         can_hm01(),
-        adv(can_fly() and (has_climb_level(1) or (has("Super Essence", 1) and has("Essence of Wind", 3))))
+        adv(can_fly() and (has_climb_level(1) or (has("Super Essence", 1) and has("Essence of Wind", 2))))
     )
 end
 
 function forest_of_fall()
     return any(
         is_thicc(),
-        adv(can_fly() and (has_climb_level() or can_hm01()))
+        adv(can_fly() and (has_climb_level(1) or can_hm01() or (has("Super Essence", 1) and has("Essence of Wind", 2))))
     )
 end
 

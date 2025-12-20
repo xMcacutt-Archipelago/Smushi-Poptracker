@@ -59,7 +59,7 @@ end
 
 function ancient_relic_2_found()
     return any(
-        can_mine() and can_fly() and has_climb_level(1),
+        can_mine() and has_climb_level(1),
         adv(can_fly() and has_climb_level(1)),
         adv(can_fly() and can_mine()),
         adv(has_climb_level(1) and can_mine()),
@@ -257,7 +257,7 @@ end
 function macrolepiota_procera()
     return any(
         is_shroom_nerd() and can_fly(),
-        adv(has_climb_level(1) and can_sprint() and has("super_spore", 1))
+        adv(is_shroom_nerd() and has_climb_level(1) and can_sprint() and has("super_spore", 1))
     )
 end
 
