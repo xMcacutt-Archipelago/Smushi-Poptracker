@@ -24,6 +24,14 @@
                 "Fix missing mycology journal requirement",
                 "Fix requirements for Forest entrance"
             ]
+        },
+        {
+            "package_version": "1.0.3",
+            "download_url": "https://github.com/xMcacutt-Archipelago/Smushi-Poptracker/releases/download/1.0.3/Smushi-Poptracker-v1.0.3.zip",
+            "sha256": "16a6b7ba3066b23890f42169803b0cd2e229007d3ba949fb0de80952f7aab958",
+            "changelog": [
+                "Various logic changes"
+            ]
         }
     ]
     

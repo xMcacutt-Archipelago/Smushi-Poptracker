@@ -28,7 +28,8 @@ end
 
 function blue_shrine_energy_spore()
     return any(
-        has_climb_level(1) or can_fly()
+        has_climb_level(1) or can_fly(),
+        adv(can_sprint())
     )
 end
 
@@ -71,21 +72,20 @@ function ancient_relic_1_found()
     return any(
         can_mine() and can_fly() and has_climb_level(1),
         adv(can_fly() and (can_mine() or has_climb_level(1))),
-        adv(has_climb_level(2) and can_sprint() and has("super_spore", 1))
+        adv(((has_climb_level(1) and can_mine()) or has_climb_level(2)) and can_sprint() and has("super_spore", 1))
     )
 end
 
 function crystal_cave_blueberry_found()
     return any(
-        can_fly() and has_climb_level(1),
-        adv(can_fly())
+        can_fly() and has_climb_level(1)
     )
 end
 
 function explosive_powder_1_found()
     return any(
         is_member(),
-        adv((can_fly() or has_climb_level(1) or can_hm01()) and has("conch_shell", 1))
+        adv((can_fly() or has_climb_level(1) or can_hm01()) and has("conch_shell", 1) or (can_sprint() and has("super_spore", 1)))
     )
 end
 
@@ -103,7 +103,8 @@ end
 
 function cryptic_caverns_wind_essence()
     return any(
-        can_fly() and has_climb_level(1)
+        can_fly() and has_climb_level(1),
+        adv(can_fly())
     )
 end
 
@@ -123,7 +124,7 @@ end
 
 function container_of_light_found()
     return any(
-        can_fly() and has_climb_level(2),
+        can_fly() and has_climb_level(1),
         adv(can_fly() and has_climb_level(1))
     )
 end
@@ -232,8 +233,7 @@ end
 
 function streamer_2_found()
     return any(
-        can_hm01() and can_glue(),
-        adv(can_hm01())
+        can_hm01() and can_glue()
     )
 end
 
@@ -282,7 +282,8 @@ end
 
 function heart_of_the_forest()
     return any(
-        has("sacred_streamer", 4) and is_shroom_nerd()
+        has("sacred_streamer", 4) and is_shroom_nerd(),
+        adv((has_climb_level(1)))
     )
 end
 
@@ -308,7 +309,7 @@ end
 function secret_augmenter()
     return any(
         has_a_secret(),
-        adv(can_fly() and has_climb_level(1))
+        adv(true)
     )
 end
 
@@ -333,7 +334,7 @@ end
 
 function ink_augmenter()
     return any(
-        can_hm01() and can_fly() and has_climb_level(1)
+        can_hm01() and can_fly() and has_climb_level(2)
     )
 end
 

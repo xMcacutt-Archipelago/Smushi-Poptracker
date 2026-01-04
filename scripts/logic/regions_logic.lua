@@ -8,7 +8,7 @@ end
 function forest_of_fall()
     return any(
         is_thicc(),
-        adv(can_fly() and (has_climb_level(1) or can_hm01() or (has("Super Essence", 1) and has("Essence of Wind", 2))))
+        adv(true)
     )
 end
 
@@ -28,8 +28,8 @@ end
 
 function dark_cave()
     return any(
-        is_pitch_black_baby() and has_climb_level(1) and can_fly()
-    )
+        is_pitch_black_baby() and has_climb_level(1) and can_fly()),
+        adv(has_climb_level(1) and can_sprint() and has("super_spore", 1))
 end
 
 function waxcap_falls_cave()
@@ -44,9 +44,10 @@ function lake_of_bloom()
         forest_of_fall(),
         any(
             can_boom(),
-            adv(can_fly() and has_climb_level(1)),
-            adv(can_fly() and can_hm01()),
-            adv(can_fly() and is_pitch_black_baby())
+            adv(can_fly()),
+            adv(can_hm01()),
+            adv(has_climb_level(1)),
+            adv(can_sprint() and has("super_spore", 1))
         )
     )
 end
